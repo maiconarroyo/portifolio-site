@@ -1,0 +1,21 @@
+.main-carrosel{
+    position: relative;
+    padding-left:100px ;
+    padding-right: 100px;
+
+}
+
+.main-carrosel .Button-Arrow{
+    position: absolute;
+    bottom: 70px;
+    transform: translateY(50%);
+    
+}
+
+.main-carrosel .Button-Arrow.-Left{
+    left: 15px;
+}
+;.main-carrosel .Button-Arrow.-Right{
+    right: 15px;
+}
+

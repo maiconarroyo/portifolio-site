@@ -1,7 +1,11 @@
-body, a {
+body{
+    font-family: "Fira Code","Arial";
+}
+
+
+body, a, h1, h2, h3, figure {
     margin:0;
 }
-.backgroundimg{
-    border: 1px solid black;
-    background: url('photo.png');
+.button{
+    border: none;
 }
