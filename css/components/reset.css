@@ -11,3 +11,6 @@ body, a, h1, h2, h3, figure , input {
     border: none;
 }
 
+html, body{
+    overflow-x: hidden;
+}

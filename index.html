@@ -223,13 +223,17 @@
     <form class="main-form">
         <legend class="main-title -second">Contato</legend>
         <label class="main-label" for="name">Nome</label>  
-        <input class="main-input" id="name" type="text"> 
+        <input class="main-input" id="name" type="text" required placeholder="Digite seu Nome"> 
+
+        <label class="main-label" for="number">Telefone</label>
+        <input class="main-input" id="number" type="number" required placeholder="Telefone ex: (DD)91111-1111">
+    
 
         <label class="main-label" for="email">Email</label>
-        <input class="main-input" id="email" type="email">
+        <input class="main-input" id="email" type="email" required placeholder="Seuemail@provedor.com">
 
         <label class="main-label" for="message" >Mensagem</label>
-        <textarea class="main-input -textarea" name="" id="message"></textarea>
+        <textarea class="main-input -textarea" name="" id="message" required placeholder="Digite sua solicitação"></textarea>
 
         <button class="main-button -full" type="submit">Enviar</button>
     </form>
