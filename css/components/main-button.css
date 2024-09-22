@@ -14,3 +14,12 @@
     -ms-transform: scale(1.15);
     transform: scale(1.15);
   }
+
+  .main-button.-full{
+    width: 100%;
+  }
+
+  .main-button.-full:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+  }
