@@ -16,10 +16,6 @@
     border: 2.5px dashed black;
     transform: rotate(90deg) translateX(-62%);
     bottom: 140px;
-    
-    
-
-
 
 }
 
@@ -34,10 +30,12 @@
 
 .node-card .logo{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    height: 129px;
-    width: 135px;
-    border: 5px solid black;    
+    height: 133px;
+    width: 136px;
+    border: 5px solid black;  
+    
 }
 
 .node-card .logo-second{
@@ -47,9 +45,20 @@
     border: 5px solid black;  
     }
 
+    .node-card .logo-third{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 145px;
+        width: 139px;
+        border: 5px solid black;  
+        
+    }
+
 .node-card.-clean .logo{
     width: 470px;
     height: 140px;
     background-color: #f5f6f8;
-    background-size: cover
+    background-size: cover;
+    padding: 0;
 }

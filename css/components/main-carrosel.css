@@ -1,21 +1,58 @@
 .main-carrosel{
     position: relative;
+    display: flex;
+    justify-content: space-between;
     padding-left:100px ;
-    padding-right: 100px;
+    padding-right: 85px;
+    
 
+}
+
+.main-carrosel::after{
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    left: 38px;
+    top: 38px;
+    display: block;
+    height: 6px;
+    width: calc(100% - 100px);
+    background-color: black;
+}
+.main-carrosel::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 38px;
+    display: block;
+    border: 3px dashed black;
+    width: 100%;
+    
 }
 
 .main-carrosel .Button-Arrow{
     position: absolute;
-    bottom: 70px;
+    bottom: 90px;
     transform: translateY(50%);
+    
     
 }
 
 .main-carrosel .Button-Arrow.-Left{
     left: 15px;
 }
-;.main-carrosel .Button-Arrow.-Right{
+.main-carrosel .Button-Arrow.-right{
     right: 15px;
 }
 
+.main-carrosel .items{
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.main-carrosel .elements{
+    display: flex;
+    justify-content: space-between;
+   
+}

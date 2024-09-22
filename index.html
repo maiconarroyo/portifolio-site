@@ -10,8 +10,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/components/reset.css">
+    <link rel="stylesheet" href="css/components/index.css">
     <link rel="stylesheet" href="css/components/main-header.css">
     <link rel="stylesheet" href="css/components/main-title.css">
     <link rel="stylesheet" href="css/components/main-subtitle.css">
@@ -140,7 +140,7 @@
                 </div>
                 
             </article>
-            <div>
+        <div>
         </section>        
         <section  class="main-section -bgBlack -bdFirst">
             <h2 class="main-title -second">Projetos</h2>
@@ -152,8 +152,8 @@
                 <a href="https://www.youtube.com/@Seuaquario" target="_blank">
                     <figure class="card-projects">
                         <img class="logo" src="assets/logo-collabcode.png" all="SeuAquario Logo">
-                    </figure> 
                 </a>
+                    </figure> 
                 <a href="https://www.linkedin.com/in/maicon-machado-dev/" target="_blank">
                     <figure class="card-projects">
                         <img class="logo" src="assets/logo maicon.jpg" all="Maicon Logo"  >
@@ -173,45 +173,50 @@
     <section class="main-carrosel">    
         <button class="Button-Arrow -Left"><span class="content">Esquerda</span></button>  
 
-        <figure class="node-card">
-            <figcaption class="title">2005</figcaption>
-            <div class="logo">
-                <img src="assets/logo cadeira.jpg" alt="Logo-chair">
-            </div>
-        </figure>
+        <div class="items">
+            <div class="elements">
+                <figure class="node-card">
+                    <figcaption class="title">2005</figcaption>
+                    <div class="logo">
+                        <img src="assets/logo cadeira.jpg" alt="Logo-chair">
+                    </div>
+                </figure>
 
-        <figure class="node-card">
-            <figcaption class="title">2017</figcaption>
-            <div class="logo">
-                <img src="assets/logo seu aquario.png" alt="Logo-YT">
-            </div>
-        </figure>
+                <figure class="node-card">
+                    <figcaption class="title">2017</figcaption>
+                    <div class="logo -third">
+                        <img src="assets/logo seu aquario.png" alt="Logo-YT">
+                    </div>
+                </figure>
 
-        <figure class="node-card">
-            <figcaption class="title">2022</figcaption>
-            <div class="logo">
-                <img src="assets/logo-google.png" alt="Logo-google">
-            </div>
-        </figure>
+                <figure class="node-card">
+                    <figcaption class="title">2022</figcaption>
+                    <div class="logo">
+                        <img src="assets/logo-google.png" alt="Logo-google">
+                    </div>
+                </figure>
 
-        <figure class="node-card -clean">
-            <figcaption class="title">2023</figcaption>
-            <div class="logo">
-                <img src="assets/logo-dio.png" alt="Logo-DIO">
-            </div>
-        </figure>
+                <figure class="node-card -clean">
+                    <figcaption class="title">2023</figcaption>
+                    <div class="logo">
+                        <img src="assets/logo-dio.png" alt="Logo-DIO">
+                    </div>
+                </figure>
 
-        <figure class="node-card">
-            <figcaption class="title">2024</figcaption>
-            <div class="logo">
-                <img src="assets/log-edn.png" alt="Logo-edn">
-            </div>
-        </figure>
+                <figure class="node-card">
+                    <figcaption class="title">2024</figcaption>
+                    <div class="logo">
+                        <img src="assets/log-edn.png" alt="Logo-edn">
+                    </div>
+                </figure>
+            </div>    
+        </div>
 
-        <button class="Button-Arrow -Right"><span class="content">Direita</span></button>  
+        <button class="Button-Arrow -right"><span class="content">Direita</span></button>  
     </section> 
 </section>
 </body>
+<script src="js/components/main-carrosel.js"></script>
 </html>
 
 
