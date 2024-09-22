@@ -1,7 +1,7 @@
 .card-projects {
     background-color: black;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 220px;
     height: 220px;
     box-shadow: 5px 5px 2px #4C5B84;
