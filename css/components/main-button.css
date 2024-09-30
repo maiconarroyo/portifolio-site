@@ -3,6 +3,7 @@
     background-color:#030B1D ;
     box-shadow: 5px 5px #17181a;
     padding: 17px 17px;
+    margin-right: 10px;
     color: white;
     font-size: 20px;
     font-family: "Fira Code", Arial, Helvetica , sans-serif;
@@ -23,3 +24,4 @@
     transform: scale(1.01);
     cursor: pointer;
   }
+
